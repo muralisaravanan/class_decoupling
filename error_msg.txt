@@ -1,0 +1,36 @@
+Running CLASS version v2.7.1
+Computing background
+ -> ddec species i=1 sampled with 28 (resp. 28) points for purpose of background (resp. perturbation) integration. In the relativistic limit it gives Delta N_eff = 0.87585
+ -> total N_eff = 2.90865 (summed over ultra-relativistic, ncdm and ddec species)
+ -> non-cold dark matter species (ddec) with i=1 has m_i = 1.357813e-02 eV (so m_i / omega_i =9.305108e+01 eV)
+ -> age = 13.856289 Gyr
+ -> conformal age = 14248.529641 Mpc
+ -> radiation/matter equality at z = 3417.479337
+    corresponding to conformal time = 113.371325 Mpc
+Computing thermodynamics with Y_He=0.2460
+ -> recombination at z = 1088.604529
+    corresponding to conformal time = 283.022022 Mpc
+    with comoving sound horizon = 145.726582 Mpc
+    angular diameter distance = 12.817043 Mpc
+    and sound horizon angle 100*theta_s = 1.043475
+ -> baryon drag stops at z = 1059.772707
+    corresponding to conformal time = 288.729965 Mpc
+    with comoving sound horizon rs = 148.306438 Mpc
+ -> reionization with optical depth = 0.055783
+    corresponding to conformal time = 5130.707336 Mpc
+ -> free-streaming approximation can be turned on as soon as tau=367.897 Mpc
+Computing sources
+Computing primordial spectra (analytic spectrum)
+No non-linear spectra requested. Nonlinear module skipped.
+Computing transfers
+Computing unlensed linear spectra
+ -> sigma8=0.812294 (computed till k = 2.37412 h/Mpc)
+ -> sigma8 (ONLY CDM+BARYON)=0.813018 (computed till k = 2.37412 h/Mpc)
+Computing lensed spectra (fast mode)
+yay done
+7 [0.00447431499088394, 0.00449595324177306, 0.026429966187371864, 0.026526713534062038, 0.2166862498714196, 0.2173812615145123]
+/gpfs/home/tbrinckmann/software/python2env/lib/python2.7/site-packages/matplotlib/axes/_base.py:3157: UserWarning: Attempted to set non-positive xlimits for log-scale axis; invalid limits will be ignored.
+  'Attempted to set non-positive xlimits for log-scale axis; '
+
+
+Probably related to TE negative y-axis values?
