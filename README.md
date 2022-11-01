@@ -1,7 +1,11 @@
-CLASS: Cosmic Linear Anisotropy Solving System  {#mainpage}
+CLASS: Cosmic Linear Anisotropy Solving System  
 ==============================================
 
 Authors: Julien Lesgourgues and Thomas Tram
+
+This edited version of CLASS code that contains a decoupling light species (written by Brinckmann et al for 2012.11830)
+
+
 
 with several major inputs from other people, especially Benjamin
 Audren, Simon Prunet, Jesus Torrado, Miguel Zumalacarregui, Francesco
