@@ -1,0 +1,9 @@
+# List of input/precision parameters passed
+# but not used (just for info)
+#
+deg_ddec = 0
+m_ddec = 1e-8
+T_ddec = 0.71611
+ddec_fermion_boson = 0
+zdec_ddec = 1e11
+dzdec_ddec = 0.4*1e11
