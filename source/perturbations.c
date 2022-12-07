@@ -4659,6 +4659,7 @@ int perturb_initial_conditions(struct precision * ppr,
       /* all other relativistic relics: early ddec */
 
       else if (pba->has_ddec == _TRUE_) {
+        
 
 	delta_ur = ppw->pv->y[ppw->pv->index_pt_delta_g]; /* density of ultra-relativistic neutrinos/relics */
 
@@ -4668,10 +4669,11 @@ int perturb_initial_conditions(struct precision * ppr,
 	/* shear_ur = ktau_two/(45.+12.*fracnu) * (3.*s2_squared-1.) * (1.+(4.*fracnu-5.)/4./(2.*fracnu+15.)*tau*om) * ppr->curvature_ini;//TBC /s2_squared; /* shear of ultra-relativistic neutrinos/relics */  //TBC:0
         /*l3_ur = ktau_three*2./7./(12.*fracnu+45.)* ppr->curvature_ini;//TBC */
 	/* ML 6/13/2022 modify to just have photon ICS */
-	theta_ur = - k*ktau_three/36. * (1.-3.*(1.+5.*fracb-fracnu)/20./(1.-fracnu)*om*tau)
-        * ppr->curvature_ini * s2_squared;
+  /*MS 11/8/2022 modify to have first order IC from Ma and Bertschinger for fluid*/
+	theta_ur = - k*ktau_three/36. * ppr->curvature_ini * s2_squared;
 	shear_ur = 0.0;
 	l3_ur = 0.0;
+
 
 
         if (pba->has_dr == _TRUE_) delta_dr = delta_ur;
